@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color:lightgray;
+}
+
+.container {
+  margin: 25% 10%;
+}
+
+/* Top */
+#top {
+
+}
+
+#title {
+  text-align:center;
+}
+
+#input {
+  width:500px;
+  font-size: 30px;
+  align-content: center;
+  text-align: center;
+}
+
+/* Bottom */
+#list {
+  padding:20px;
+  align-content: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+ul li {
+  width: 75%;
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  user-select: none;
+}
+
+ul li:nth-child(odd) {
+  background:#f9f9f9
+}
